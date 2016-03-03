@@ -1,0 +1,7 @@
+-(void)getJsonData:(CTHTTPResponseHandler)responseHandler - Get operation.
+
+-(void)saveOnlyParamswithCompletion:(CTHTTPResponseHandler )httpResponseHandler - Post Method To Save Params.
+
+-(void)saveDataWithParams:(NSData *)data withFileName:(NSString *)fileName fileKey:(NSString *)key otherData:(NSDictionary *)params withCompletion:(CTHTTPResponseHandler)httpResponseHandler --
+Save NSData and Parmas . (have to convert image to NSData)
+
